@@ -1,5 +1,5 @@
 # Bootcamp DIO - .NET Developer - Avanader
-[Avanade](https://hermes.dio.me/tracks/1fd7a7da-ba42-417c-a4de-2f0c2f0622b6.png)
+![Avanade](https://hermes.dio.me/tracks/1fd7a7da-ba42-417c-a4de-2f0c2f0622b6.png)
 
 ## Topicos abordados no bootcamp
  - Principios de Desenvolvimento de Aplicações
