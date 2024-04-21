@@ -1,20 +1,37 @@
 ﻿using Dotnet_Avanade.Models;
 
-Pessoa pessoa1 = new Pessoa();
 
-pessoa1.Nome = "Ariel";
-pessoa1.Idade = 31;
-pessoa1.Apresentar();
 
-//Pessoa pessoalFisicaRepresentacao = new Pessoa();
 
-int quantidade = 1;
-double altura = 1.55;
+// DateTime dataAtual = DateTime.Now;
+// DateTime dataAtual2 = DateTime.Now.AddDays(2);
+// DateTime dataAtual3 = DateTime.Now.AddDays(2);
 
-decimal preco = 1.80M;
-bool condicion = true;
+// Console.WriteLine(dataAtual);
+// Console.WriteLine(dataAtual2);
+// Console.WriteLine(dataAtual3.ToString("MM/dd/yyyy"));
 
-Console.WriteLine(quantidade);
-Console.WriteLine(altura.ToString("0.00"));
-Console.WriteLine(preco);
-Console.WriteLine(condicion);
+int a = Convert.ToInt32("5");
+int b = int.Parse("5");
+
+Console.WriteLine(a);
+
+
+// Pessoa pessoa1 = new Pessoa();
+
+// pessoa1.Nome = "Ariel";
+// pessoa1.Idade = 31;
+// pessoa1.Apresentar();
+
+ //Pessoa pessoalFisicaRepresentacao = new Pessoa();
+
+// int quantidade = 1;
+// double altura = 1.55;
+
+// decimal preco = 1.80M;
+// bool condicion = true;
+
+// Console.WriteLine(quantidade);
+// Console.WriteLine(altura.ToString("0.00"));
+// Console.WriteLine(preco);
+// Console.WriteLine(condicion);
