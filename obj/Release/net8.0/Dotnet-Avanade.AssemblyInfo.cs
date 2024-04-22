@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Dotnet-Avanade")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64b2a0f8a5eccfa4b752c672248cc91a467dcfce")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a56dddd4842ca7dfb16d5b94c6ed4854aed7335")]
 [assembly: System.Reflection.AssemblyProductAttribute("Dotnet-Avanade")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Dotnet-Avanade")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

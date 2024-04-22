@@ -1,8 +1,5 @@
 ﻿using Dotnet_Avanade.Models;
 
-
-
-
 // DateTime dataAtual = DateTime.Now;
 // DateTime dataAtual2 = DateTime.Now.AddDays(2);
 // DateTime dataAtual3 = DateTime.Now.AddDays(2);
@@ -11,10 +8,11 @@
 // Console.WriteLine(dataAtual2);
 // Console.WriteLine(dataAtual3.ToString("MM/dd/yyyy"));
 
-int a = Convert.ToInt32("5");
-int b = int.Parse("5");
+int a = Convert.ToInt32(null);
+//int b = int.Parse("null");
 
 Console.WriteLine(a);
+//Console.WriteLine(b);
 
 
 // Pessoa pessoa1 = new Pessoa();
