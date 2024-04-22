@@ -1,34 +1,46 @@
-﻿using System.Security.AccessControl;
-using Dotnet_Avanade.Models;
+﻿using Dotnet_Avanade.Models;
 
 
 
-int quantidadeEmEstoque = 3;
-int quantidadeCompra = 0;
-bool possivelVenda = quantidadeEmEstoque > 0 && quantidadeEmEstoque >= quantidadeCompra;
+Console.WriteLine("Digite uma letra");
+string letra = Console.ReadLine();
 
-Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
-Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
-Console.WriteLine($"É possível realizar a velsnda? {possivelVenda}");
-
-if(quantidadeCompra == 0)
+switch (letra)
 {
-    Console.WriteLine("Venda Realizada");
+	case "a":
+	case "e":
+	case "i":
+	case "o":
+	case "u":
+		Console.WriteLine("é uma vogal");
+		break;
+
+    default:
+		Console.WriteLine("não é uma vogal");
+		break;
 }
 
-else if(possivelVenda){
-    Console.WriteLine("Venda inválida");
-}
+//int quantidadeEmEstoque = 3;
+//int quantidadeCompra = 0;
+//bool possivelVenda = quantidadeEmEstoque > 0 && quantidadeEmEstoque >= quantidadeCompra;
 
-else
-{
-    Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque");
-}
+//Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+//Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+//Console.WriteLine($"É possível realizar a velsnda? {possivelVenda}");
 
+//if(quantidadeCompra == 0)
+//{
+//    Console.WriteLine("Venda Realizada");
+//}
 
+//else if(possivelVenda){
+//    Console.WriteLine("Venda inválida");
+//}
 
-
-
+//else
+//{
+//    Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque");
+//}
 
 
 // DateTime dataAtual = DateTime.Now;
@@ -52,7 +64,7 @@ else
 // pessoa1.Idade = 31;
 // pessoa1.Apresentar();
 
- //Pessoa pessoalFisicaRepresentacao = new Pessoa();
+//Pessoa pessoalFisicaRepresentacao = new Pessoa();
 
 // int quantidade = 1;
 // double altura = 1.55;
