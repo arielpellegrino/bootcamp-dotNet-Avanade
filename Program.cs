@@ -1,10 +1,29 @@
-﻿using Dotnet_Avanade.Models;
+﻿using System.Security.AccessControl;
+using Dotnet_Avanade.Models;
 
 
 
+int quantidadeEmEstoque = 3;
+int quantidadeCompra = 0;
+bool possivelVenda = quantidadeEmEstoque > 0 && quantidadeEmEstoque >= quantidadeCompra;
 
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"Quantidade em estoque: {quantidadeEmEstoque}");
+Console.WriteLine($"É possível realizar a velsnda? {possivelVenda}");
 
+if(quantidadeCompra == 0)
+{
+    Console.WriteLine("Venda Realizada");
+}
 
+else if(possivelVenda){
+    Console.WriteLine("Venda inválida");
+}
+
+else
+{
+    Console.WriteLine("Desculpe, não temos a quantidade desejada em estoque");
+}
 
 
 
