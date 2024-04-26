@@ -2,11 +2,11 @@
 ![Avanade](https://hermes.dio.me/tracks/1fd7a7da-ba42-417c-a4de-2f0c2f0622b6.png)
 
 ## Topicos abordados no bootcamp
- - Principios de Desenvolvimento de Aplicações
+ - Principios de Desenvolvimento de AplicaÃ§Ãµes
  - Fundamentos do .NET
- - Manipulação de Dados e Objetos com .NET
- - Programação Orientada a Objetos com C#
- - Programação de APIs com Banco de Dados
+ - ManipulaÃ§Ã£o de Dados e Objetos com .NET
+ - ProgramaÃ§Ã£o Orientada a Objetos com C#
+ - ProgramaÃ§Ã£o de APIs com Banco de Dados
  - Desenvolvimento orientado a testes
 ## Tecnologias utilizadas
  - Visual Studio
