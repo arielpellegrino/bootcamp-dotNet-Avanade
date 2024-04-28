@@ -6,6 +6,33 @@
 
 
 /*
+int soma = 0; numero = 0;
+
+do
+{
+	Console.WriteLine("Digite um numero (0 para para parar");
+	numero = Convert.ToInt32(Console.ReadLine());
+
+	soma += numero;
+} while(numero != 0);
+*/
+
+
+
+/*
+int numero = 5;
+int contador = 0;
+//auxiliar = 0;
+
+while (contador <= 10)
+{
+	Console.WriteLine($"{contador} Execução: {numero} x {contador} = {numero * contador}" );
+	contador++;
+}
+*/
+
+
+/*
 int numero = 10;
 
 for (int contador = 0; contador <= 10; contador++)
